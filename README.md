@@ -43,7 +43,7 @@ You can select three modes from the sidebar.
 | Reports | View the last 1000 log entries, filter them by roll number or date range, and export them to a CSV. |
 
 ## Notes
+Claude helped build the Streamlit interface and some of the core Python code. I designed and verified the QR tracking logic and cross-gate handling manually.
 
 Roll numbers have to be unique. The system rejects duplicate entries, and students cannot register themselves. The admin has to set them up. 
-
 If you need to wipe the data, admins can reset all logs from the Admin panel. It asks for confirmation first, so you do not do it by accident.
